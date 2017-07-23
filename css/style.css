@@ -1,91 +1,45 @@
-body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+#body {
+    margin: 0;
 }
 
-#menu {
-  text-align: center;
-  background: #222;
-  
+nav#menu {
+    background-color: black;
+    text-align: center;
 }
 
-#menu .menu-item {
-  display: inline-block;
-  padding: 25px;
-  list-style: none;
+nav#menu > ul > li.menu-item {
+    display: inline
 }
 
-#menu ul {
-  margin: 0;
+nav#menu > ul {
+    margin: 0px;
+    padding: 15px;
 }
 
-#menu .menu-item a{
-  text-decoration: none;
-  color: #fff;
+#menu-item {
+    text-align: center
 }
 
-#menu .menu-item a:hover{
-  color: #999;
+header > h1 {
+    text-align: center;
 }
 
-#header {
-  position: relative;
-  text-align: center;
+section > h2 {
+    text-align: center;
 }
 
-#header img{
-  width: 100%;
+section > p {
+    text-align: center;
 }
 
-#header #main-header-text {
-  position: absolute;
-  top: 50%;
-  font-size: 50px;
-  font-weight: 700;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-transform: uppercase;
-  color: #fff;
-  
+section > article {
+    text-align: center;
 }
 
-#about {
-  margin: 30px 0;
-  padding: 0 50px;
+footer > h2 {
+    text-align: center;
 }
 
-#about #about-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#about .about-content{
-  text-align: center;
-}
-
-#contact {
-  padding: 30px 50px;
-  background: #222;
-}
-
-#contact #contact-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-#contact #contact-content {
-  text-align: center;
-  color: #fff;
-}
-
-#contact #contact-content a {
-  color: #fff;
-}
-
-#contact #contact-content a:hover {
-  color: #999;
+footer {
+    text-align: center;
 }
