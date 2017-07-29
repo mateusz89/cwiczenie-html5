@@ -94,11 +94,29 @@ section > article {
     top: -30px;
 }
 
-footer {
-    background-color: #222;
-    color: white;
-    margin: 30px 0;
-    padding: 0 50px;
+footer#contact {
+    padding: 30px 50px;
+    background: #222;
+    text-align: center;
+}
+
+footer#contact h2#contact-header {
+    font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
+    color: #fff;
+}
+
+footer#contact adress#contact-content {
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+}
+
+footer#contact adress#contact-content a {
+    color: #fff
+}
+
+footer#contact adress#contact-content a:hover {
+    color: #999;
 }
