@@ -1,10 +1,38 @@
-#body {
+/* General styles */
+
+body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 
+/* Menu styles */
+
 nav#menu {
-    background-color: black;
     text-align: center;
+    background-color: #222;
+}
+
+nav#menu > ul {
+    margin: 0px;
+}
+
+nav#menu > ul > li.menu.item {
+    padding: 25px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav#menu > ul > li.menu-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav#menu > ul > li.menu-item a:hover {
+    color: #999;
+}
+
+head {
+    color: white;
 }
 
 nav#menu > ul > li.menu-item {
@@ -20,26 +48,57 @@ nav#menu > ul {
     text-align: center
 }
 
-header > h1 {
+header#header {
+    position: relative;
     text-align: center;
 }
 
-section > h2 {
+header#header img {
+    width: 100%;
+}
+
+header#header h1#main-header-text {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* SECTION STYLES */
+
+section#about {
+    margin: 30px 0;
+    padding: 0 50px;
+}
+
+section#about h2#about-header {
     text-align: center;
+    margin-bottom: 20p;
+    font-size: 30px;
 }
 
 section > p {
     text-align: center;
+    position: relative;
+    top: -10px;
 }
 
 section > article {
     text-align: center;
-}
-
-footer > h2 {
-    text-align: center;
+    position: relative;
+    top: -30px;
 }
 
 footer {
+    background-color: #222;
+    color: white;
+    margin: 30px 0;
+    padding: 0 50px;
     text-align: center;
+    margin-bottom: 20px;
 }
